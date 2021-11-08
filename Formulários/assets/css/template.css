@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(#f55bca, #a61fae);
+    box-shadow: 0px 3px 2px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-family: Gluten, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:-moz-linear-gradient(#f55bca, #a61fae);     
+    background:-o-linear-gradient(#f55bca, #a61fae);         
+    background:-webkit-linear-gradient(#f55bca, #a61fae);    
+}
+header img{
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo1{
+    width: 100px;
+
+}
+.logo2{
+    width: 75px;
+}
+
+.registration{
+    height: 100;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.img_forms img{
+    margin-top: 200px;
+    height: auto;
+    width: 900px;
+    
+}
+.form_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 700px;
+    margin-top: 70px;
+    padding-top: 20px;
+    border: double 5px purple;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border-radius: 10px;  
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+footer{
+    height: 100px;
+    background: linear-gradient(#f55bca, #a61fae);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -3px 2px black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 60px;
+    width: 60px;
+    margin-right: 40px;
+    margin-top: 20px;
+    transition: all 0.1s linear;
+}
+.logo_insta{
+    border: double 2px rgb(105, 16, 128);
+    padding: 3px;
+    border-radius: 100px;
+}
+.logo_twitter{
+    border: double 2px rgb(0, 183, 255);
+    padding: 3px;
+    border-radius: 100px;
+}
+.logo_whats{
+    border: double 2px chartreuse;
+    padding: 3px;
+    border-radius: 100px;
+}
+
+
+.logo_insta:hover{
+    width: 70px;
+    height: auto;
+    align-items: center;
+    margin-top: 0px;
+    padding: 7px;
+}
+.logo_twitter:hover{
+    width: 70px;
+    height: auto;
+    align-items: center;
+    margin-top: 0px;
+    padding: 7px;
+}
+.logo_whats:hover{
+    width: 70px;
+    height: auto;
+    align-items: center;
+    margin-top: 0px;
+    padding: 7px;
+}
+
+
+
+

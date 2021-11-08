@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pagina de Cadastro</title>
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no"/>
+        <link rel="stylesheet" href="assets/css/template.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img class="logo1" src="assets/images/logo1.png" alt="">
+            </figure>
+            <div class="header_text">Preencha os formulários para se cadastrar</div>
+            <figure>
+                <img class="logo2" src="assets/images/logo2.png" alt="">
+            </figure>
+        </header>
+        <main>
+            <div class="container">
+                <div class="registration">
+                    <div class="form_space">
+                        <form class="card">
+                            <label>
+                                Nome Completo: 
+                                <br/>
+                                <input type="text" name="fullname" placeholder="Digite aqui..." autofocus required title="Insira seu nome completo!"/> 
+                            </label>
+                            <br/>
+                            <label>
+                                Data de Nascimento:
+                                <br/>
+                                <input type="date" name="birthday" max="2021-09-21" required >
+                            </label>
+                            <br/>
+                            <label>
+                                Telefone residencial (opcional):
+                                <br/>
+                                <input type="tel"  minlength="11" maxlength="11">
+                                <br/>
+                                Telefone Celular (opcional):
+                                <br/>
+                                <input type="tel" >
+                            <br/>
+                            <label>
+                                E-mail:
+                                <br/>
+                                <input type="email" name="email"  required tittle="Insira seu E-mail!" >
+                            </label>
+                            <br/>
+                            <label>
+                                Senha:
+                                <br/>
+                                <input type="password" name="password"  required minlength="8" maxlength="10">
+                            </label>
+                            <br/>
+                            <label>
+                                RG (sem . e -):
+                                <br/>
+                                <input type="number" name="rg_number" placeholder="00 000 000 0" required minlength="8" maxlength="9">
+                            </label>
+                            <br/>
+                            <label>
+                                CPF (sem . e -):
+                                <br/>
+                                <input type="number" name="cpf_number" placeholder="000 000 000 00" required minlength="10" maxlength="11">
+                            </label>
+                            <br/>
+
+                            <label>
+                                Sua Foto (opcional):
+                                <input type="file" name="photo" accept="image/*">
+                            </label>
+                            <br/>
+                            <label>
+                                <input type="submit">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="img_forms">
+                        <img src="assets/images/img_formularios.png" alt="">
+                    </div>
+    
+                </div>
+
+            </div>
+           
+        </main>
+
+        <footer>
+            <div class="footer_img">
+                <a target="blank" href=""><img class="logo_insta" src="assets/images/insta.png" alt=""></a> 
+                <a target="blank" href=""><img class="logo_twitter" src="assets/images/twitter.png" alt=""></a> 
+                <a target="blank" href=""><img class="logo_whats" src="assets/images/whats.png" alt=""></a>
+            </div>
+        </footer>
+    </body>
+</html>
